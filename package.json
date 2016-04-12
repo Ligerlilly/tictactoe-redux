@@ -41,7 +41,15 @@
     "webpack-dev-server": "^1.12.1"
   },
   "dependencies": {
+    "history": "^2.0.1",
+    "immutable": "^3.7.6",
     "react": "^0.14.6",
-    "react-dom": "^0.14.6"
+    "react-bootstrap": "^0.28.5",
+    "react-dom": "^0.14.6",
+    "react-redux": "^4.4.2",
+    "react-router": "^2.0.1",
+    "redux": "^3.4.0",
+    "redux-logger": "^2.6.1",
+    "redux-thunk": "^2.0.1"
   }
 }
