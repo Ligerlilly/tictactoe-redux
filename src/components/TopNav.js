@@ -22,6 +22,6 @@ export default class TopNav extends React.Component {
             </Nav>
         </Navbar.Collapse>
       </Navbar>
-    )
+    );
   }
 }

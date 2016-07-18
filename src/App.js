@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
-import { connect } from 'react-redux';
-import TopNav from './components/top-nav';
+import TopNav from './components/TopNav';
 
 export default class App extends Component {
+  constructor(props) {
+    super(props);
+  }
+
   render() {
     return (
       <div className='container'>
@@ -12,9 +15,3 @@ export default class App extends Component {
     );
   }
 }
-
-function mapStateToProps(state) {
-  return state;
-}
-
-connect(mapStateToProps)(App);
